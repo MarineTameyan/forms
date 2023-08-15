@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 5px 15px;
+    max-width: 500px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container div{
+    padding: 2px;
+}
+
+.container div label{
+    font-size: 15px;
+    font-style: italic;
+}
+
+.container div input{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.details{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.details input{
+    margin: 5px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button{
+    height: 30px;
+    width: 200px;
+    background-color: blue;
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+}
+
